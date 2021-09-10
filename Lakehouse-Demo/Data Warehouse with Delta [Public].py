@@ -257,7 +257,7 @@ newColumnDF.write.format("delta").mode("append").option("mergeSchema", "true").s
 # COMMAND ----------
 
 # MAGIC %sql
-# MAGIC select bikesharing as of version 0
+# MAGIC -- select * from  bikesharing as of version 0
 
 # COMMAND ----------
 
@@ -269,9 +269,9 @@ newColumnDF.write.format("delta").mode("append").option("mergeSchema", "true").s
 
 # COMMAND ----------
 
-# MAGIC %sql
-# MAGIC -- 
-# MAGIC VACCUUM userData
+# MAGIC %sql 
+# MAGIC 
+# MAGIC -- VACCUUM userData
 
 # COMMAND ----------
 
@@ -332,3 +332,7 @@ aggTable.writeStream\
 # MAGIC %sql
 # MAGIC -- select * from bikeSharingAggTable
 # MAGIC select * from userdata
+
+# COMMAND ----------
+
+

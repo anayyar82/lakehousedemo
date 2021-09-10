@@ -42,3 +42,9 @@ def bikeshare_clean():
   return (
     bikeshare
   )
+
+# COMMAND ----------
+
+afadsfd
+
+dfasfsdv
